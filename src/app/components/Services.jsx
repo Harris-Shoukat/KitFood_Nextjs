@@ -5,7 +5,7 @@ import ItemSlider from "./ItemSlider";
 const Services = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center mt-10">
+      <div id="service" className="flex flex-col items-center justify-center mt-10">
         <div>
           <h2 className="text-2xl italic ">- Nos services -</h2>
         </div>

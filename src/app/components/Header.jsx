@@ -42,26 +42,45 @@ const Header = () => {
         <div className="w-full h-[73px] bg-[#F7BC00] flex items-center">
           <nav className="w-[85%] ml-28">
             <ul className="flex justify-end items-center h-full mr-36">
-              <Link href="#" className="mx-4 text-white text-2xl hover:border-b-2 border-b-white">
+              <Link
+                href="#"
+                className="mx-4 text-white text-2xl hover:border-b-2 border-b-white"
+              >
                 Accueil
               </Link>
-              <Link href="#" className="mx-4 text-white text-2xl hover:border-b-2 border-b-white">
-                Nos produits
+              <Link
+                href="#service"
+                className=" mx-4 text-white text-2xl hover:border-b-2 border-b-white"
+              >
+                Nos services
               </Link>
-              <Link href="#" className="mx-4 text-white text-2xl hover:border-b-2 border-b-white">
+              <Link
+                href="#about"
+                className="mx-4 text-white text-2xl hover:border-b-2 border-b-white"
+              >
                 A propos
               </Link>
-              <Link href="#" className="mx-4 text-white text-2xl hover:border-b-2 border-b-white">
+              <Link
+                href="#"
+                className="mx-4 text-white text-2xl hover:border-b-2 border-b-white"
+              >
                 Mes commandes
               </Link>
-              <Link href="#" className="mx-4 text-white text-2xl hover:border-b-2 border-b-white">
+              <Link
+                href="#"
+                className="mx-4 text-white text-2xl hover:border-b-2 border-b-white"
+              >
                 Contact
               </Link>
             </ul>
           </nav>
           <div className="w-[17%] flex justify-start items-center">
-            <PiShoppingCartSimpleFill className="text-white text-3xl mr-6"/>
-            <button className="bg-white px-4 py-1 rounded-xl text-xl">Se connecter</button>
+            <PiShoppingCartSimpleFill className="text-white text-3xl mr-6" />
+            <Link href="/login">
+              <button className="bg-white px-4 py-1 rounded-xl text-xl">
+                Se connecter
+              </button>
+            </Link>
           </div>
         </div>
       </header>

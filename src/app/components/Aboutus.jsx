@@ -3,7 +3,7 @@ import React from "react";
 const Aboutus = () => {
   return (
     <>
-      <div className="w-[80%] mx-auto my-4">
+      <div id="about" className="w-[80%] mx-auto my-4">
         <div className="text-center">
           <h1 className="text-2xl font-medium italic">- A propos de nous -</h1>
         </div>
