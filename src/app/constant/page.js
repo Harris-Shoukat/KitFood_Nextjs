@@ -1,17 +1,20 @@
 export const serviceconstant = [
   {
+    id: 1,
     image: "Rectangle 10.png",
     title: "Recettes",
     description:
       "Commander et faites vous livrer les ingrédients et la fiche de recette qui vous permettra de cuisiner comme un chef... Vous avez la possibilité de commander pour un max de 10 personnes.",
   },
   {
+    id: 2,
     image: "Rectangle 11.png",
     title: "Cuisiner à domicile",
     description:
       "Ce soir , vous recevez des invités , vous avez la flemme de cuisiner ou de faire le service ? Mr LATOUCHE vous envoie un(e) cuisinier (e) et/ ou un(e) serveur(euse) ... pour offrir un service que vous n'êtes pas prêt d'oublier.",
   },
   {
+    id: 3,
     image: "Rectangle 12.png",
     title: "Service traiteur",
     description:
@@ -56,27 +59,61 @@ export const review = [
 
 export const recetteConstant = [
   {
+    id: 1,
     image: "Rectangle 846.png",
-    name: "Lasagnes",
+    name: "Lasagnes 1",
   },
   {
+    id: 2,
     image: "Rectangle 846.png",
-    name: "Lasagnes",
+    name: "Lasagnes 2",
   },
   {
+    id: 3,
     image: "Rectangle 846.png",
-    name: "Lasagnes",
+    name: "Lasagnes 3",
   },
   {
+    id: 4,
     image: "Rectangle 846.png",
-    name: "Lasagnes",
+    name: "Lasagnes 4",
   },
   {
+    id: 5,
     image: "Rectangle 846.png",
-    name: "Lasagnes",
+    name: "Lasagnes 5",
   },
   {
+    id: 6,
     image: "Rectangle 846.png",
-    name: "Lasagnes",
+    name: "Lasagnes 6",
   },
 ];
+
+export const pizzaRecommendation = [
+  {
+    id: 1,
+    image: "/Rectangle 845.png", // Adjusted image path
+    name: "PIZZA ROYALE",
+    rating:3,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: 2,
+    image: "/Rectangle 845.png", // Adjusted image path
+    name: "PIZZA ROYALE",
+    rating:3,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    id: 3,
+    image: "/Rectangle 845.png", // Adjusted image path
+    name: "PIZZA ROYALE",
+    rating:3,
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+];
+
