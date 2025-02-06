@@ -10,7 +10,14 @@ const Header = () => {
       <header className="w-full h-auto bg-white ">
         <div className="w-[90%] mx-auto flex justify-between items-center py-6">
           <div>
-            <Image src="/kitfoodLogo.svg" width={100} height={100} alt="logo" />
+            <Link href="/">
+              <Image
+                src="/kitfoodLogo.svg"
+                width={100}
+                height={100}
+                alt="logo"
+              />
+            </Link>
           </div>
           <div className="flex pr-10">
             <p className=" text-2xl flex justify-center items-center mr-2 italic text-[#F7BC00]">
@@ -43,7 +50,7 @@ const Header = () => {
           <nav className="w-[85%] ml-28">
             <ul className="flex justify-end items-center h-full mr-36">
               <Link
-                href="#"
+                href="/"
                 className="mx-4 text-white text-2xl hover:border-b-2 border-b-white"
               >
                 Accueil
@@ -61,7 +68,7 @@ const Header = () => {
                 A propos
               </Link>
               <Link
-                href="#"
+                href="../myorder"
                 className="mx-4 text-white text-2xl hover:border-b-2 border-b-white"
               >
                 Mes commandes

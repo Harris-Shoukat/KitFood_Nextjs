@@ -1,11 +1,14 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const IngredientsList = () => {
   return (
     <div className="w-[80%] mx-auto p-6">
       {/* Title */}
-      <h2 className="text-3xl font-medium mb-8 uppercase italic text-left">Ingrédients</h2>
+      <h2 className="text-3xl font-medium mb-8 uppercase italic text-left">
+        Ingrédients
+      </h2>
 
       {/* Two-column layout with a line in the center */}
       <div className="flex justify-between items-start">
@@ -21,7 +24,9 @@ const IngredientsList = () => {
                 alt="Flour"
                 className="object-cover rounded-xl"
               />
-              <span className="text-2xl w-full uppercase text-center">Pate à lasagne</span>
+              <span className="text-2xl w-full uppercase text-center">
+                Pate à lasagne
+              </span>
             </div>
             <div className="flex items-center gap-4">
               <Image
@@ -31,7 +36,9 @@ const IngredientsList = () => {
                 alt="Sugar"
                 className="object-cover rounded-xl"
               />
-              <span className="text-2xl w-full uppercase text-center">Sauce bolognaise</span>
+              <span className="text-2xl w-full uppercase text-center">
+                Sauce bolognaise
+              </span>
             </div>
             <div className="flex items-center gap-4">
               <Image
@@ -41,7 +48,9 @@ const IngredientsList = () => {
                 alt="Eggs"
                 className="object-cover rounded-xl"
               />
-              <span className="text-2xl w-full uppercase text-center">Gruyère râpée</span>
+              <span className="text-2xl w-full uppercase text-center">
+                Gruyère râpée
+              </span>
             </div>
             <div className="flex items-center gap-4">
               <Image
@@ -51,7 +60,9 @@ const IngredientsList = () => {
                 alt="Butter"
                 className="object-cover rounded-xl"
               />
-              <span className="text-2xl w-full uppercase text-center">Gruyère râpée</span>
+              <span className="text-2xl w-full uppercase text-center">
+                Gruyère râpée
+              </span>
             </div>
           </div>
         </div>
@@ -71,7 +82,9 @@ const IngredientsList = () => {
                 alt="Salt"
                 className="object-cover rounded-xl"
               />
-              <span className="text-2xl w-full uppercase text-center">Pate à lasagne</span>
+              <span className="text-2xl w-full uppercase text-center">
+                Pate à lasagne
+              </span>
             </div>
             <div className="flex items-center gap-4">
               <Image
@@ -81,7 +94,9 @@ const IngredientsList = () => {
                 alt="Milk"
                 className="object-cover rounded-xl"
               />
-              <span className="text-2xl w-full uppercase text-center">Gruyère râpée</span>
+              <span className="text-2xl w-full uppercase text-center">
+                Gruyère râpée
+              </span>
             </div>
             <div className="flex items-center gap-4">
               <Image
@@ -91,7 +106,9 @@ const IngredientsList = () => {
                 alt="Vanilla Extract"
                 className="object-cover rounded-xl"
               />
-              <span className="text-2xl w-full uppercase text-center">Sauce bolognaise</span>
+              <span className="text-2xl w-full uppercase text-center">
+                Sauce bolognaise
+              </span>
             </div>
             <div className="flex items-center gap-4">
               <Image
@@ -101,13 +118,19 @@ const IngredientsList = () => {
                 alt="Baking Powder"
                 className="object-cover rounded-xl"
               />
-              <span className="text-2xl w-full uppercase text-center">Gruyère</span>
+              <span className="text-2xl w-full uppercase text-center">
+                Gruyère
+              </span>
             </div>
           </div>
         </div>
       </div>
       <div className="w-full text-center my-16">
-        <button className="bg-[#F7BC00] w-[40%] text-white text-3xl py-4 px-4 rounded-lg hover:bg-[#f7bd00f2] transition">Ajouter au panier</button>
+        <Link href="/MyOrder">
+          <button className="bg-[#F7BC00] w-[40%] text-white text-3xl py-4 px-4 rounded-lg hover:bg-[#f7bd00f2] transition">
+            Ajouter au panier
+          </button>
+        </Link>
       </div>
 
       <div className="w-full h-[2px] bg-[#757272] my-6"></div>
