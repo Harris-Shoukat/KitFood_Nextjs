@@ -1,10 +1,16 @@
+"use client"
 import Image from "next/image";
 import MyOrderBtn from "../components/MyOrderBtn";
 import HorizontalLine from "../components/HorizontalLine";
 import CartItemCard from "../components/CartItemCard";
 import Recommendation from "../components/Recommendation";
+import { useRouter } from "next/navigation";
 
 const Page = () => {
+
+  const route = useRouter();
+
+
   return (
     <>
       <div className="relative">
@@ -50,7 +56,7 @@ const Page = () => {
 
         {/* Button Section */}
         <div className="flex justify-center items-center py-5 ">
-          <button className="text-2xl px-10 py-2 bg-[#F7BC00] text-white rounded-xl">
+          <button onClick={()=> route.push("/confirmation")} className="text-2xl px-10 py-2 bg-[#F7BC00] text-white rounded-xl">
             Confirmer la commande
           </button>
         </div>

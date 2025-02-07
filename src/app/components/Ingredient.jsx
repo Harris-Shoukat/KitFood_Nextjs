@@ -126,7 +126,7 @@ const IngredientsList = () => {
         </div>
       </div>
       <div className="w-full text-center my-16">
-        <Link href="/MyOrder">
+        <Link href="/myorder">
           <button className="bg-[#F7BC00] w-[40%] text-white text-3xl py-4 px-4 rounded-lg hover:bg-[#f7bd00f2] transition">
             Ajouter au panier
           </button>
