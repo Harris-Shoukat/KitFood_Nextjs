@@ -53,3 +53,30 @@ export const review = [
       "“All service provided is so perfect and fast, and im so happy to order from this company”",
   },
 ];
+
+export const recetteConstant = [
+  {
+    image: "Rectangle 846.png",
+    name: "Lasagnes",
+  },
+  {
+    image: "Rectangle 846.png",
+    name: "Lasagnes",
+  },
+  {
+    image: "Rectangle 846.png",
+    name: "Lasagnes",
+  },
+  {
+    image: "Rectangle 846.png",
+    name: "Lasagnes",
+  },
+  {
+    image: "Rectangle 846.png",
+    name: "Lasagnes",
+  },
+  {
+    image: "Rectangle 846.png",
+    name: "Lasagnes",
+  },
+];
