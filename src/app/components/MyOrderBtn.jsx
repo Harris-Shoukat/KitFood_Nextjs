@@ -17,7 +17,7 @@ const MyOrderBtn = () => {
       setActivebtn("settings");
     }
   }, [route.pathname]);
-  
+
   const handleclickbtn = (BtnName) => {
     if (BtnName === "Profile") {
       route.push("/profile");

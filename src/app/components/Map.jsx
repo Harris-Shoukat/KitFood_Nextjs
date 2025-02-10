@@ -19,11 +19,11 @@ const Map = () => {
 
     if (!location || !time) {
       setErrorMessage("Please fill in both delivery location and time.");
-      return; // Prevent form submission if data is missing
+      return; 
     }
 
-    setErrorMessage(""); // Clear error message if validation passes
-    openModal(); // Open the modal after form validation
+    setErrorMessage(""); 
+    openModal(); 
   };
 
   return (

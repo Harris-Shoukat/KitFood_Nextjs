@@ -45,12 +45,8 @@ const Recommendation = () => {
                   <h2 className="text-lg text-gray-400 mt-2">
                     {item.description}
                   </h2>
-
-                  {/* Rating Section */}
                   <div className="flex items-center mt-4">
                     <h1 className="text-lg text-gray-400 pr-4">Rating:</h1>
-
-                    {/* Star icons based on rating */}
                     {[1, 2, 3, 4, 5].map((star) => (
                       <IoStarSharp
                         key={star}

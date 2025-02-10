@@ -95,7 +95,7 @@ export const pizzaRecommendation = [
     id: 1,
     image: "/Rectangle 845.png", // Adjusted image path
     name: "PIZZA ROYALE",
-    rating:3,
+    rating: 3,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
@@ -103,7 +103,7 @@ export const pizzaRecommendation = [
     id: 2,
     image: "/Rectangle 845.png", // Adjusted image path
     name: "PIZZA ROYALE",
-    rating:3,
+    rating: 3,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
@@ -111,9 +111,60 @@ export const pizzaRecommendation = [
     id: 3,
     image: "/Rectangle 845.png", // Adjusted image path
     name: "PIZZA ROYALE",
-    rating:3,
+    rating: 3,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+];
+
+export const ingredients = [
+  {
+    id: 1,  // Unique identifier
+    src: "/pexels-alleksana-4113900.jpg",
+    alt: "Flour",
+    label: "Pate à lasagne",
+  },
+  {
+    id: 2,
+    src: "/pexels-alleksana-4113900.jpg",
+    alt: "Sugar",
+    label: "Sauce bolognaise",
+  },
+  {
+    id: 3,
+    src: "/pexels-alleksana-4113900.jpg",
+    alt: "Eggs",
+    label: "Gruyère râpée",
+  },
+  {
+    id: 4,
+    src: "/pexels-alleksana-4113900.jpg",
+    alt: "Butter",
+    label: "Gruyère râpée",
+  },
+  {
+    id: 5,
+    src: "/pexels-alleksana-4113900.jpg",
+    alt: "Salt",
+    label: "Pate à lasagne",
+  },
+  {
+    id: 6,
+    src: "/pexels-alleksana-4113900.jpg",
+    alt: "Milk",
+    label: "Gruyère râpée",
+  },
+  {
+    id: 7,
+    src: "/pexels-alleksana-4113900.jpg",
+    alt: "Vanilla Extract",
+    label: "Sauce bolognaise",
+  },
+  {
+    id: 8,
+    src: "/pexels-alleksana-4113900.jpg",
+    alt: "Baking Powder",
+    label: "Gruyère",
   },
 ];
 
